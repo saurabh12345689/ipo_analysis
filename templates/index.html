@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPO Analysis</title>
+  <link rel="stylesheet" href='static/css/style.css'>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="logo">
+      <img src="{{ url_for('static', path='images/logo.png') }}" alt="Logo">
+    </div>
+    <div class="title">
+      <h1>IPO Analysis</h1>
+    </div>
+    <div class="login">
+      <button onclick="window.location.href='/login'">Login</button>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="nav-bar">
+    <a href="/">Home</a>
+    <a href="/products">Products</a>
+    <a href="/stock-market">Stock Market</a>
+    <a href="/brokers">Brokers</a>
+  </div>
+
+  <!-- Home Page Content -->
+  <div class="home-content">
+    <div class="left-container">
+      <h2>Services</h2>
+      <div class="buttons">
+        <button>IPO Analysis</button>
+        <button>Sentiment Analysis</button>
+        <button>Subscription</button>
+        <button>Sector Analysis</button>
+        <button>History</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', path='js/script.js') }}"></script>
+</body>
+</html>

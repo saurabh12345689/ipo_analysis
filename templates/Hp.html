@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPO Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #004085; color: white; padding: 15px; text-align: center; }
+        nav { display: flex; justify-content: space-between; background: #003366; padding: 10px; }
+        nav a { color: white; text-decoration: none; padding: 10px; }
+        .dropdown { display: inline-block; }
+        .dropdown select { padding: 5px; }
+        .hero { text-align: center; padding: 50px; background: #f4f4f4; }
+        .sections { padding: 20px; text-align: center; }
+        .tabs { display: flex; justify-content: center; margin-top: 20px; }
+        .tab { padding: 10px 20px; background: #007bff; color: white; margin: 5px; cursor: pointer; border-radius: 5px; }
+        .footer { text-align: center; padding: 20px; background: #222; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to IPO Investments</h1>
+    </header>
+    
+    <nav>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About IPO</a>
+            <a href="#">How to Apply</a>
+            <a href="#">Prospectus</a>
+        </div>
+        <div>
+            <div class="dropdown">
+                <label>Sector:</label>
+                <select>
+                    <option>IT</option>
+                    <option>Banking</option>
+                    <option>Finance</option>
+                    <option>Pharma</option>
+                    <option>Defense</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label>Period:</label>
+                <select>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="hero">
+        <h2>Invest in the Future with Our IPO!</h2>
+        <p>Be a part of our growth. Check out the latest IPO offerings.</p>
+    </div>
+    
+    <div class="sections">
+        <h2>IPO Listings</h2>
+        <div class="tabs">
+            <div class="tab">Upcoming IPOs</div>
+            <div class="tab">Ongoing IPOs</div>
+            <div class="tab">Closed IPOs</div>
+        </div>
+    </div>
+    
+    <div class="sections">
+        <h2>About the Company</h2>
+        <p>Learn more about our company and why investing in this IPO is a great opportunity.</p>
+    </div>
+    
+    <div class="sections">
+        <h2>How to Apply</h2>
+        <p>Step-by-step guide on applying for the IPO easily.</p>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 IPO Investments. All rights reserved.</p>
+    </div>
+</body>
+</html>
